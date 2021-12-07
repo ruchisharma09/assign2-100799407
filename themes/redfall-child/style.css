@@ -11,7 +11,11 @@
     Text Domain: twentytwentyone
     Tags: one-column, accessibility-ready, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready
 
-*/
+*/  
+    body {
+        color: darkblue;
+    }
+
     h2 {
         color: orange;
     }
@@ -23,5 +27,42 @@
     strong {
         font-size: 24px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
     }
+
+    .attachment-post-thumbnail.size-post-thumbnail.wp-post-image {
+        width: 50%;
+        height: 50%;
+        border: 2px solid rgb(73, 7, 7);
+    }
+
+    .wp-block-buttons {
+        font-size: 15px;
+    }
+
+    .wp-block-button_link {
+        color: darkred;
+    }
+
+
+    a {
+        font-weight: bold;
+    }
+
+    .site-title {
+        font-weight: bold;
+    }
+
+    .site-description {
+        color:darkred;
+    }
+
+    .post-edit-link {
+        font-size: 14px;
+        text-decoration: underline;
+    }
+
+    .has-text-align-right {
+        text-decoration: underline;
+    }
+
+
