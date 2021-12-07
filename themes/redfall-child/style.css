@@ -12,3 +12,16 @@
     Tags: one-column, accessibility-ready, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready
 
 */
+    h2 {
+        color: orange;
+    }
+
+    .wp-image-94 {
+        border: 2px solid red;
+    }
+
+    strong {
+        font-size: 24px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }
